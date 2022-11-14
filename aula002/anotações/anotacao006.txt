@@ -1,0 +1,97 @@
+> 5 > 2
+true
+> 8 < 4
+false
+> var a = 8
+undefined
+> var b = 15
+undefined
+> a > b
+false
+> a < b
+true
+> a <= b - 10
+false
+> a == b
+false
+> a !=
+... b
+true
+> 5 == '5'
+true
+> var x = 5
+undefined
+> var y = '5'
+undefined
+> typeof x
+'number'
+> typeof y
+'string'
+> x == y
+true
+> x === y
+false
+> x !== y
+true
+> x !=== y
+x !=== y
+     ^
+
+Uncaught SyntaxError: Unexpected token '='
+> x !== y
+true
+> true && false
+false
+> true && true
+true
+> false
+false
+> false || false
+false
+> true || false
+true
+> true || true
+true
+> a > b && b % 2 == 0
+false
+> a <= 8 || b / 2 == 2
+true
+> var idade = 9
+undefined
+> var estado 'SP'
+var estado 'SP'
+           ^^^^
+
+Uncaught SyntaxError: Unexpected string
+> var estado = 'SP'
+undefined
+> var salario = 1500
+undefined
+> var sexo = 'F'
+undefined
+> idade >= 15 && idade <= 17
+false
+> estado == 'RJ' || estado == 'SP'
+true
+> salario > 1500 && sexo != 'F'
+false
+> var media = 5.5
+undefined
+> media > 7 ? 'Aprovado' : 'Reprovado'
+'Reprovado'
+> media += 3
+8.5
+> media > 7 ? 'Aprovado' : 'Reprovado'
+'Aprovado'
+> var x = 8
+undefined
+> var res = x % 2 == 0 ? 5 : 9
+undefined
+> res
+5
+> var idade = 19
+undefined
+> var r = idade >= 18 ? 'Maior de idade' : 'Menor de idade'
+undefined
+> r
+'Maior de idade'

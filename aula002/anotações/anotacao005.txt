@@ -1,0 +1,18 @@
+> var preco = 250.00
+undefined
+> var idade = 9
+undefined
+> var curso = 'desenvolvimento web'
+undefined
+> var n1 = 5
+undefined
+> var n2 = 10
+undefined
+> preco >= 200.50
+true
+> idade < 18
+true
+> curso == 'javaScript'
+false
+> n1 != n2
+true

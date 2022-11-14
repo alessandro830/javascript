@@ -1,0 +1,63 @@
+> 5 + 2
+7
+> 9 % 2
+1
+> 9 / 2
+4.5
+> 5 + 3 / 2
+6.5
+> 5 + / 2
+5 + / 2
+    ^
+
+Uncaught SyntaxError: Invalid regular expression: missing /
+> (5 + 3) / 2
+4
+> var a = 5 + 3
+undefined
+> var b = a % 5
+undefined
+> var c = 5 * b ** 2
+undefined
+> var d = 10 - a / 2
+undefined
+> var e = 6 * 2 / d
+undefined
+> var f = b % e + 4 / e
+undefined
+> a
+8
+> b
+3
+> c
+45
+> d
+6
+> e
+2
+> f
+3
+> var num = 8
+undefined
+> num += 2
+10
+> num %= 2
+0
+> num = 3
+3
+> num **= 2
+9
+> var n = 10
+undefined
+> n ++
+10
+> n
+11
+> n --
+11
+> n
+10
+> ++n
+11
+> --n
+10
