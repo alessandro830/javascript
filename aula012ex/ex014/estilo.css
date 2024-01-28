@@ -1,0 +1,44 @@
+body {
+    font: normal 15pt Arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+section > div.divImagem {
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+} 
+
+section > div#msg > p {
+    font-size: 23px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+footer > p > a {
+    color: #fff;
+}
