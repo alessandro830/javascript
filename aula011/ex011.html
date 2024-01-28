@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sua nacionalidade</h1>
+    Nacionalidade: <input type="text" name="nac" id="idnac">
+    <input type="submit" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+
+    <script>
+        function verificar() {
+            var nac = window.document.querySelector("input#idnac").value.toUpperCase()
+            var res = window.document.querySelector("div#res")
+            if (nac == "BR") {
+                res.innerHTML = "<p>Você é <strong>brasileiro!</strong></p>"
+            }
+            else {
+                res.innerHTML = "<p>Você é <strong>estrangeiro!</strong></p>"
+            }
+        }
+    </script>
+</body>
+</html>
