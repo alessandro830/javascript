@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+section > div#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div#box > div#imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+footer > p > a {
+    color: #fff;
+}
