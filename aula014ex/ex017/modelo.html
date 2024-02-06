@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Modelo de Exercício</title>
+    <title>Tabuada</title>
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div>Testando...</div>
+        <div>
+            <p>
+                <label for="num">Número: </label>
+                <input type="number" name="number" id="num" autofocus>
+                <input type="submit" value="Gerar Tabuada" onclick="calcular()">
+            </p>
+        </div>
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+            </select>
+        </div>
     </section>
     <footer>
         <p>&copy; <a href="https://github.com/alessandro830">AlessandroViana</a></p>
